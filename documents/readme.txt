@@ -21,4 +21,9 @@ Next user can open the index.php (url: ‘localhost/travelagency2/index.php’)
 {on my laptop; path is ‘localhost/webdev/travelagency2/index.php’} 
 ensuring the path is correct (depending on your storage path on your device of the 'travelagency2' unzipped folder).
 
+*CHANGED ACCOUNT ACCESS FOR LESS SECURE APPS TO 'ON' IN ACCOUNT GMAIL SETTINGS
+^
+To allow third party websites to send a verification/forgot password email to your email address: needed on login.php and register.php files
+^
+Through the use of PHPMailer (Downloaded from GitHub: url: 'https://github.com/PHPMailer/PHPMailer')
 
