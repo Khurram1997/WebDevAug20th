@@ -1,0 +1,601 @@
+
+body 
+{
+
+background-image: url("background.gif");
+
+}
+
+#
+{
+	display: inline-block;
+}
+#whole
+{
+	width: 100%;
+	height: 3000px;
+	
+}
+#main
+{
+	margin: auto;
+	width: 95%;
+	height: auto;
+	background-color: #bac3d3;
+	
+}
+
+#navbar
+{
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+}
+
+
+#navbar ul 
+{
+	
+    list-style-type: none;
+    margin: auto;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #979ca3;
+	border-bottom: 2px solid #777b82;
+	
+	
+}
+
+#navbar li
+ {
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+    display: inline;
+	float: left;
+	
+
+}
+
+#navbar li a 
+{
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+	padding-left:20px;
+}
+
+
+
+#logoimg
+{
+	
+	position: relative;
+	right: 10px;
+	top: 8px;
+	
+}
+
+#logoimg:hover
+{
+	
+	cursor: pointer;
+}
+
+h1
+{
+	padding:10px 40px;
+	text-shadow: 1px 1px black;
+	color: #ff59db;
+	font-family: Arial;
+	font-size: ultra-expanded;
+}
+
+
+#new
+{
+	position: relative;
+	padding: 10px 70px;
+	margin: auto;
+}
+
+
+#shopbutton 
+{
+    background-color: #979ca3;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 30px 72px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#itemimage
+{
+	display: inline-block;
+}
+
+#shopbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#cartbutton
+{
+	background-color: #979ca3;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 30px 72px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#cartbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#wishlistbutton
+{
+	background-color: #979ca3;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 30px 72px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#wishlistbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#loginbutton
+{
+	background-color: #979ca3;
+    border: none;
+ 
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 30px 72px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#loginbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#registerbutton
+{
+	background-color: #979ca3;
+    border: none;
+
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 30px 72px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#registerbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#filterbar
+{
+	float:centre;
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 80;
+}
+
+#filterbar ul
+{
+	float:centre;
+	list-style-type: none;
+    margin: auto;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #3d383c;
+	border-bottom: 2px solid #777b82;
+	
+	
+}
+
+
+#filterbar li
+ {
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+    display: inline;
+	float: left;
+	
+
+}
+
+#filterbar li a 
+{
+	
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 15px 55px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+
+#filterbar li a:hover 
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#topsbutton
+{
+	
+	background-color: #3d383c;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 10px 100px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+
+#topsbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#bottomsbutton
+{
+	
+	background-color: #3d383c;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 10px 100px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#bottomsbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#footwearbutton
+{
+	
+	background-color: #3d383c;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 10px 100px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#footwearbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+#accessoriesbutton
+{
+	
+	background-color: #3d383c;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+	color: #ff59db;
+	text-align: center;
+	padding: 10px 100px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	text-shadow: 1px 1px black;
+	opacity: 0.75;
+}
+
+#accessoriesbutton:hover
+{
+	color: #ffd3f5;
+	text-shadow: 1px 1px #ff59db;
+}
+
+
+#regform input {
+	background-color: #ffd3f5;
+	border: 3px solid #3d383c;
+	width: 100%;
+	height: 30px;
+    color: #3d383c;
+}
+
+#regform input:focus {
+    border: 3px solid #3d383c;
+}
+
+#regbutton
+{
+    background-color: #ffd3f5; 
+    border: 3px solid #3d383c;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	
+	
+}
+
+
+#logform input {
+	background-color: #ffd3f5;
+	border: 3px solid #3d383c;
+    color: #3d383c;
+}
+
+#logform input:focus {
+    border: 3px solid #3d383c;
+}
+#password
+{
+	width: 100%;
+	height: 30px;
+	
+}
+
+#username
+{
+	width: 100%;
+	height: 30px;
+}
+#logbutton
+{
+	
+  `width:125px;
+  `height:60px;
+   background-color: #ffd3f5; 
+    border: 3px solid #3d383c;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	
+	
+	
+	
+	
+}
+
+#wronginfo
+{
+	color: #3d383c;
+	font-family: Arial;
+	font-size:16px;
+	padding-left: 10px;
+}
+
+
+
+#items
+{	
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+#holder
+{
+	margin: 20px;
+	width: 200px;
+	height: 350px;
+	padding: 10px;
+	display:inline-block;
+}
+#holder img 
+{	
+	width:100%;
+	float: top;
+	height: 90%;
+	border: 2px solid #ffd3f5 ;
+	transition: all .2s ease-in-out;
+}
+
+
+#Desc
+{
+	width: 100%;
+	height: 17%;
+	text-align: center;
+	font-family: Arial;
+	color: #ffd3f5;
+	text-shadow: 1px 1px #3d383c;
+	font-size: 17px;
+}
+
+
+#view input
+{
+	float: center;
+	background-color: #ffd3f5; 
+    border: 3px solid #3d383c;
+    color: #3d383c;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;	
+	cursor:pointer;
+	margin-left:50px;
+	margin-top:-30px;
+}
+
+#holderrows
+{
+	width: 25%;
+	height: 500px;
+	display: inline-block;
+}
+
+
+#user
+{
+	
+    font-size: 25px;
+	color: #3d383c;
+	font-family: Arial;
+	font-variant: inherit;
+	padding: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	font-size: 25px;
+	color: #3d383c;
+	font-family: Arial;
+	font-variant: inherit;
+	padding: 20px 20px;
+}
+	
+a:hover
+{
+	color: #ffd3f5;
+}
+
+#changebutton
+{
+	 background-color: #ffd3f5; 
+    border: 3px solid #3d383c;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	
+	
+	
+}
+	
+#carterr
+{
+	padding: 10px 10px;
+	font-size: 20px;
+	font-family: Arial;
+	color: #3d383c;
+}
+
+#signin
+{
+	padding: 10px 10px;
+	font-size: 20px;
+	font-family: Arial;
+	color: #ffd3f5 ;
+}
+
+#signin:hover
+{
+	color: #3d383c;
+	text-shadow: 1px 1px black;
+}
+
+#addtocart
+{
+text-align:right;
+}
+
+#Desc2
+{
+	
+	padding: 10px;
+	font-family: Arial;
+	color: #ffd3f5;
+	text-shadow: 1px 1px #3d383c;
+	font-size: 17px;
+}
+
+
+	
